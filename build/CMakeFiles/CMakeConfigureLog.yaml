@@ -1,0 +1,193 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/cmake-3.28.0-rc1-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/cmake-3.28.0-rc1-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/cmake-3.28.0-rc1-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/cmake-3.28.0-rc1-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler versione 19.38.33133 per x64
+      Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.38.33133.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/ricca/Desktop/informatica/pong multiplayer/build/CMakeFiles/3.28.0-rc1/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/cmake-3.28.0-rc1-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/cmake-3.28.0-rc1-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/cmake-3.28.0-rc1-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Nota: file incluso  C:\\Users\\ricca\\Desktop\\informatica\\pong multiplayer\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Nota: file incluso  "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/cmake-3.28.0-rc1-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/cmake-3.28.0-rc1-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/cmake-3.28.0-rc1-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler versione 19.38.33133 per x64
+      Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.38.33133.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/ricca/Desktop/informatica/pong multiplayer/build/CMakeFiles/3.28.0-rc1/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/cmake-3.28.0-rc1-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/cmake-3.28.0-rc1-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/cmake-3.28.0-rc1-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Nota: file incluso  C:\\Users\\ricca\\Desktop\\informatica\\pong multiplayer\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Nota: file incluso  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/cmake-3.28.0-rc1-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/cmake-3.28.0-rc1-windows-x86_64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ricca/Desktop/informatica/pong multiplayer/build/CMakeFiles/CMakeScratch/TryCompile-lvt4s1"
+      binary: "C:/Users/ricca/Desktop/informatica/pong multiplayer/build/CMakeFiles/CMakeScratch/TryCompile-lvt4s1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/vcpkg/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ricca/Desktop/informatica/pong multiplayer/build/CMakeFiles/CMakeScratch/TryCompile-lvt4s1'
+        
+        Run Build Command(s): C:/cmake-3.28.0-rc1-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_07f51\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_07f51.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_07f51.dir\\build
+        Building C object CMakeFiles/cmTC_07f51.dir/CMakeCCompilerABI.c.obj
+        	C:\\cmake-3.28.0-rc1-windows-x86_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_07f51.dir\\CMakeCCompilerABI.c.obj.d --working-dir="C:\\Users\\ricca\\Desktop\\informatica\\pong multiplayer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lvt4s1" --filter-prefix="Nota: file incluso  " -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\ricca\\AppData\\Local\\Temp\\nmCC65.tmp
+        CMakeCCompilerABI.c
+        Linking C executable cmTC_07f51.exe
+        	C:\\cmake-3.28.0-rc1-windows-x86_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_07f51.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_07f51.dir\\objects1.rsp @C:\\Users\\ricca\\AppData\\Local\\Temp\\nmCDBE.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_07f51.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_07f51.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_07f51.dir/manifest.res CMakeFiles\\cmTC_07f51.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_07f51.dir\\objects1.rsp /out:cmTC_07f51.exe /implib:cmTC_07f51.lib /pdb:C:\\Users\\ricca\\Desktop\\informatica\\pong multiplayer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lvt4s1\\cmTC_07f51.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_07f51.dir/intermediate.manifest CMakeFiles\\cmTC_07f51.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_07f51.dir/intermediate.manifest /out:CMakeFiles\\cmTC_07f51.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_07f51.dir/manifest.res CMakeFiles\\cmTC_07f51.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_07f51.dir\\objects1.rsp /out:cmTC_07f51.exe /implib:cmTC_07f51.lib /pdb:C:\\Users\\ricca\\Desktop\\informatica\\pong multiplayer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lvt4s1\\cmTC_07f51.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_07f51.dir/intermediate.manifest CMakeFiles\\cmTC_07f51.dir/manifest.res
+        	C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary "C:/Users/ricca/Desktop/informatica/pong multiplayer/build/CMakeFiles/CMakeScratch/TryCompile-lvt4s1/cmTC_07f51.exe" -installedDir C:/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/cmake-3.28.0-rc1-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/cmake-3.28.0-rc1-windows-x86_64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/ricca/Desktop/informatica/pong multiplayer/build/CMakeFiles/CMakeScratch/TryCompile-iqmr8g"
+      binary: "C:/Users/ricca/Desktop/informatica/pong multiplayer/build/CMakeFiles/CMakeScratch/TryCompile-iqmr8g"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/vcpkg/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ricca/Desktop/informatica/pong multiplayer/build/CMakeFiles/CMakeScratch/TryCompile-iqmr8g'
+        
+        Run Build Command(s): C:/cmake-3.28.0-rc1-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_116c1\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_116c1.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_116c1.dir\\build
+        Building CXX object CMakeFiles/cmTC_116c1.dir/CMakeCXXCompilerABI.cpp.obj
+        	C:\\cmake-3.28.0-rc1-windows-x86_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_116c1.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir="C:\\Users\\ricca\\Desktop\\informatica\\pong multiplayer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iqmr8g" --filter-prefix="Nota: file incluso  " -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\ricca\\AppData\\Local\\Temp\\nmD04D.tmp
+        CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_116c1.exe
+        	C:\\cmake-3.28.0-rc1-windows-x86_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_116c1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_116c1.dir\\objects1.rsp @C:\\Users\\ricca\\AppData\\Local\\Temp\\nmD09C.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_116c1.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_116c1.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_116c1.dir/manifest.res CMakeFiles\\cmTC_116c1.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_116c1.dir\\objects1.rsp /out:cmTC_116c1.exe /implib:cmTC_116c1.lib /pdb:C:\\Users\\ricca\\Desktop\\informatica\\pong multiplayer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iqmr8g\\cmTC_116c1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_116c1.dir/intermediate.manifest CMakeFiles\\cmTC_116c1.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_116c1.dir/intermediate.manifest /out:CMakeFiles\\cmTC_116c1.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_116c1.dir/manifest.res CMakeFiles\\cmTC_116c1.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_116c1.dir\\objects1.rsp /out:cmTC_116c1.exe /implib:cmTC_116c1.lib /pdb:C:\\Users\\ricca\\Desktop\\informatica\\pong multiplayer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iqmr8g\\cmTC_116c1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_116c1.dir/intermediate.manifest CMakeFiles\\cmTC_116c1.dir/manifest.res
+        	C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary "C:/Users/ricca/Desktop/informatica/pong multiplayer/build/CMakeFiles/CMakeScratch/TryCompile-iqmr8g/cmTC_116c1.exe" -installedDir C:/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+        
+      exitCode: 0
+...
