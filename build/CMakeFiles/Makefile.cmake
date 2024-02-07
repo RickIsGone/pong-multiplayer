@@ -51,8 +51,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/vcpkg/vcpkg/installed/x64-windows/share/SDL2_ttf/SDL2_ttf-shared-targets.cmake"
   "C:/vcpkg/vcpkg/installed/x64-windows/share/SDL2_ttf/SDL2_ttfConfig.cmake"
   "C:/vcpkg/vcpkg/installed/x64-windows/share/SDL2_ttf/SDL2_ttfConfigVersion.cmake"
-  "C:/vcpkg/vcpkg/installed/x64-windows/share/asio/asio-config.cmake"
-  "C:/vcpkg/vcpkg/installed/x64-windows/share/asio/asio-targets.cmake"
   "C:/vcpkg/vcpkg/installed/x64-windows/share/sdl2/SDL2Config.cmake"
   "C:/vcpkg/vcpkg/installed/x64-windows/share/sdl2/SDL2ConfigVersion.cmake"
   "C:/vcpkg/vcpkg/installed/x64-windows/share/sdl2/SDL2Targets-debug.cmake"

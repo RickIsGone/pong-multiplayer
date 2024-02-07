@@ -1,4 +1,3 @@
-#include <asio.hpp>
 #include <SDL.h>
 #include <SDL_image.h>
 #include <SDL_ttf.h> 
@@ -12,18 +11,10 @@ int main(int argc,char* argv[]){
     Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048);
     TTF_Init();
 
-    visualizer app;
+    game pong;
 
-    TTF_Font* font = TTF_OpenFont("calibri.ttf", 30);
-    
-    
-    while(!app.quit){  
-
-        while (SDL_PollEvent(&app.event)){
-            app.events();
-        }
-        
-    }
+    pong.singlepayer();
+    // pong.multiplayer();
     
     return EXIT_SUCCESS;
 }
