@@ -2,7 +2,8 @@
 #include <sdl.h>
 #include <sdl_ttf.h>
 
-#define SPEED 100
+#define SPEED 1000
+#define BALLSPEED 1500
 
 class game{
 
@@ -20,6 +21,25 @@ class game{
 
     uint32_t currentTime=0, lastFrameTime = 0;
     double deltaTime = 0;
+
+    bool up=0;
+
+    void move(){
+        if(up){
+            if(ball.y-BALLSPEED*deltaTime>0) ball.y-=BALLSPEED*deltaTime;
+            else {
+                ball.y=0;
+                up=0;
+            }
+        }
+        else{
+            if(ball.y+BALLSPEED*deltaTime<850) ball.y+=BALLSPEED*deltaTime;
+            else {
+                ball.y=850;
+                up=1;
+            }
+        }
+    }
 
     public:
 
@@ -76,7 +96,7 @@ class game{
             if(key[SDL_SCANCODE_S]&&leftPlayer.y!=600){
                 if(leftPlayer.y+SPEED*deltaTime<600) leftPlayer.y+=SPEED*deltaTime;
                 else leftPlayer.y=600;
-            }                                                                                           //da sistemare andare verso il basso 
+            }                                                                                           
 
             if(key[SDL_SCANCODE_UP]&&rightPlayer.y!=0){
                 if(rightPlayer.y-SPEED*deltaTime>0) rightPlayer.y-=SPEED*deltaTime;
@@ -102,6 +122,8 @@ class game{
 
             const Uint8* key = SDL_GetKeyboardState(NULL);
 
+            move();
+            
             while (SDL_PollEvent(&event)){
                 events();
             }
@@ -115,13 +137,13 @@ class game{
                 else leftPlayer.y=600;
             }
 
-            if (leftPlayer.y+150 != rightPlayer.y+150){       //ball.y+25 al posto di leftPlayer.y+150
-                if(leftPlayer.y+150 < rightPlayer.y+150 && rightPlayer.y!=0) {
+            if (ball.y+25 != rightPlayer.y+150){       
+                if(ball.y+25 < rightPlayer.y+150 && rightPlayer.y!=0) {
                     if (rightPlayer.y-SPEED*deltaTime>0) rightPlayer.y-=SPEED*deltaTime;
                     else rightPlayer.y=0;
                 }
 
-                else if(leftPlayer.y+150 > rightPlayer.y+150 && rightPlayer.y!=600){
+                else if(ball.y+25 > rightPlayer.y+150 && rightPlayer.y!=600){
                     if(rightPlayer.y+SPEED*deltaTime<600) rightPlayer.y+=SPEED*deltaTime;
                     else rightPlayer.y=600;
                 }
@@ -133,4 +155,4 @@ class game{
     }
 
 
-}extern app;
+}extern pong;

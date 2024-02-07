@@ -7,8 +7,8 @@ CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\S
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_stdinc.h
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_config.h
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_platform.h
-CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared\winapifamily.h"
-CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared\winpackagefamily.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\winapifamily.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\winpackagefamily.h"
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
 CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stdio.h"
@@ -218,9 +218,11 @@ C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_locale.h:
 
 "C:\Users\ricca\Desktop\informatica\pong multiplayer\main.cpp":
 
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared\winpackagefamily.h":
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wtime.h":
 
-"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\immintrin.h":
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\concurrencysal.h":
+
+"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\winapifamily.h":
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vadefs.h":
 
@@ -240,7 +242,9 @@ C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_endian.h:
 
 C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_stdinc.h:
 
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared\winapifamily.h":
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\ctype.h":
+
+"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\winpackagefamily.h":
 
 C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h:
 
@@ -257,10 +261,6 @@ C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h:
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\intrin.h":
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\sal.h":
-
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wtime.h":
-
-"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\concurrencysal.h":
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_string.h":
 
@@ -316,8 +316,6 @@ C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_audio.h:
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdint.h":
 
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\ctype.h":
-
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h":
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmmintrin.h":
@@ -333,6 +331,8 @@ C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_error.h:
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\intrin0.inl.h":
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\setjmp.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\immintrin.h":
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\wmmintrin.h":
 

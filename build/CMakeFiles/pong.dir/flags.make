@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -external:IC:\vcpkg\vcpkg\installed\x64-windows\include -external:IC:\vcpkg\vcpkg\installed\x64-windows\include\SDL2 -external:W0
 
-CXX_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -MDd -Zi
+CXX_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -MD
 
