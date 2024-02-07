@@ -13,8 +13,8 @@ int main(int argc,char* argv[]){
 
     game pong;
 
-    pong.singlepayer();
-    // pong.multiplayer();
+    // pong.singlepayer();
+    pong.multiplayer();
     
     return EXIT_SUCCESS;
 }
