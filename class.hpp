@@ -1,15 +1,16 @@
 #pragma once
 #include <sdl.h>
 #include <sdl_ttf.h>
+#include "sdl_functions.hpp"
 
 #define SPEED 1000
-#define BALLSPEED 1100
+#define BALLSPEED 1200
 
 struct balls{
     SDL_Rect hitbox={775,425,50,50};
     int dx=-1,dy=1;
     int speed=BALLSPEED;
-}ball;
+}static ball;
 
 class game{
 
@@ -18,11 +19,6 @@ class game{
     SDL_Rect    leftPlayer={0,300,50,300},  
                 rightPlayer={1550,300,50,300};
                  
-
-    SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
-
-    TTF_Font* font = TTF_OpenFont("calibri.ttf", 30);
-
     int leftPlayerScore=0,rightPlayerScore=0;
 
     uint32_t currentTime=0, lastFrameTime = 0;
@@ -34,29 +30,37 @@ class game{
         ball.hitbox.x+=ball.dx*ball.speed*deltaTime;
         ball.hitbox.y+=ball.dy*ball.speed*deltaTime;
 
-        if((ball.hitbox.x <= 0 &&ball.dy==-1)||(ball.hitbox.x >= 1550&&ball.dy==1)) {
+        if(ball.hitbox.x <= 0 &&ball.dy==-1) {
+            ball.hitbox={775,425,50,50};
+            ball.speed=BALLSPEED;
+            ball.dx=1;
+            ball.dy=-1;
+            ++rightPlayerScore;
+        }
+        if(ball.hitbox.x >= 1550&&ball.dy==1){
             ball.hitbox={775,425,50,50};
             ball.speed=BALLSPEED;
             ball.dx=-1;
             ball.dy=1;
+            ++leftPlayerScore;
         }
+
         if((SDL_HasIntersection(&ball.hitbox,&leftPlayer)&&ball.dx==-1)||(SDL_HasIntersection(&ball.hitbox,&rightPlayer)&&ball.dx==1)) {
             ball.dx*=-1;
             ball.speed+=100;
         }
-        if(ball.hitbox.y <= 0 || ball.hitbox.y >= 850) ball.dy*=-1; 
-        
+
+        if(ball.hitbox.y <= 0 ||ball.hitbox.y >= 850) ball.dy*=-1; 
+
         if(ball.speed>2000) ball.speed=2000;
     }
-
-    public:
 
     SDL_Event event;
     SDL_Event WindowEvent;
     
     bool quit=0;
 
-    
+    SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
     void events(){
         switch(event.type){  
@@ -69,7 +73,7 @@ class game{
         } 
     }
 
-    void draw(){ //TTF_Font *font
+    void draw(TTF_Font *font){ 
 
         SDL_SetRenderDrawColor(renderer,255,255,255,255);
         
@@ -77,13 +81,18 @@ class game{
         SDL_RenderFillRect(renderer,&leftPlayer);
         SDL_RenderFillRect(renderer,&rightPlayer);
 
+        sdl::v_quick_text(leftPlayerScore,255,255,255,700,50,renderer,font);
+        sdl::v_quick_text(rightPlayerScore,255,255,255,850,50,renderer,font);
+
         SDL_SetRenderDrawColor(renderer,0,0,0,255);
 
         SDL_RenderPresent(renderer);
         SDL_RenderClear(renderer);
     }
 
-    int multiplayer(){
+    public:
+
+    int multiplayer(TTF_Font *font){
 
         while(!quit){
 
@@ -117,12 +126,12 @@ class game{
                 else rightPlayer.y=600;
             }
 
-            draw();
+            draw(font);
         }
         return EXIT_SUCCESS;
     }
 
-    int singlepayer(){
+    int singlepayer(TTF_Font *font){
 
         while(!quit){
             
@@ -159,7 +168,7 @@ class game{
                 }
             }
 
-            draw();
+            draw(font);
         }
         return EXIT_SUCCESS;
     }
