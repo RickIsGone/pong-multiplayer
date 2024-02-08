@@ -201,9 +201,6 @@ CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\S
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_ttf.h
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
-CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_mixer.h
-CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
-CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
 CMakeFiles\pong.dir\main.cpp.obj: "C:\Users\ricca\Desktop\informatica\pong multiplayer\class.hpp"
 
 
@@ -427,5 +424,3 @@ C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_version.h:
 C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_misc.h:
 
 C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_image.h:
-
-C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_mixer.h:

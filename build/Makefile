@@ -536,6 +536,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pong.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\pong.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+sdl_functions.obj: sdl_functions.cpp.obj
+.PHONY : sdl_functions.obj
+
+# target to build an object file
+sdl_functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pong.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\pong.dir\sdl_functions.cpp.obj
+.PHONY : sdl_functions.cpp.obj
+
+sdl_functions.i: sdl_functions.cpp.i
+.PHONY : sdl_functions.i
+
+# target to preprocess a source file
+sdl_functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pong.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\pong.dir\sdl_functions.cpp.i
+.PHONY : sdl_functions.cpp.i
+
+sdl_functions.s: sdl_functions.cpp.s
+.PHONY : sdl_functions.s
+
+# target to generate assembly for a file
+sdl_functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pong.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\pong.dir\sdl_functions.cpp.s
+.PHONY : sdl_functions.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -579,6 +603,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... sdl_functions.obj
+	@echo ... sdl_functions.i
+	@echo ... sdl_functions.s
 .PHONY : help
 
 

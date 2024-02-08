@@ -78,20 +78,42 @@ CMakeFiles\pong.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\pong.dir\main.cpp.s /c "C:\Users\ricca\Desktop\informatica\pong multiplayer\main.cpp"
 <<
 
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: CMakeFiles\pong.dir\flags.make
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Users\ricca\Desktop\informatica\pong multiplayer\sdl_functions.cpp"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: CMakeFiles\pong.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ricca\Desktop\informatica\pong multiplayer\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pong.dir/sdl_functions.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\pong.dir\sdl_functions.cpp.obj.d --working-dir="C:\Users\ricca\Desktop\informatica\pong multiplayer\build" --filter-prefix="Nota: file incluso  " -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\pong.dir\sdl_functions.cpp.obj /FdCMakeFiles\pong.dir\ /FS -c "C:\Users\ricca\Desktop\informatica\pong multiplayer\sdl_functions.cpp"
+<<
+
+CMakeFiles\pong.dir\sdl_functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pong.dir/sdl_functions.cpp.i"
+	C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\Hostx64\x64\cl.exe > CMakeFiles\pong.dir\sdl_functions.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ricca\Desktop\informatica\pong multiplayer\sdl_functions.cpp"
+<<
+
+CMakeFiles\pong.dir\sdl_functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pong.dir/sdl_functions.cpp.s"
+	C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\pong.dir\sdl_functions.cpp.s /c "C:\Users\ricca\Desktop\informatica\pong multiplayer\sdl_functions.cpp"
+<<
+
 # Object files for target pong
 pong_OBJECTS = \
-"CMakeFiles\pong.dir\main.cpp.obj"
+"CMakeFiles\pong.dir\main.cpp.obj" \
+"CMakeFiles\pong.dir\sdl_functions.cpp.obj"
 
 # External object files for target pong
 pong_EXTERNAL_OBJECTS =
 
 pong.exe: CMakeFiles\pong.dir\main.cpp.obj
+pong.exe: CMakeFiles\pong.dir\sdl_functions.cpp.obj
 pong.exe: CMakeFiles\pong.dir\build.make
 pong.exe: C:\vcpkg\vcpkg\installed\x64-windows\debug\lib\manual-link\SDL2maind.lib
 pong.exe: C:\vcpkg\vcpkg\installed\x64-windows\debug\lib\SDL2_ttf.lib
 pong.exe: C:\vcpkg\vcpkg\installed\x64-windows\debug\lib\SDL2d.lib
 pong.exe: CMakeFiles\pong.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\ricca\Desktop\informatica\pong multiplayer\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pong.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\ricca\Desktop\informatica\pong multiplayer\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable pong.exe"
 	C:\cmake-3.28.0-rc1-windows-x86_64\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\pong.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\pong.dir\objects1.rsp @<<
  /out:pong.exe /implib:pong.lib /pdb:"C:\Users\ricca\Desktop\informatica\pong multiplayer\build\pong.pdb" /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  C:\vcpkg\vcpkg\installed\x64-windows\debug\lib\manual-link\SDL2maind.lib C:\vcpkg\vcpkg\installed\x64-windows\debug\lib\SDL2_ttf.lib shell32.lib C:\vcpkg\vcpkg\installed\x64-windows\debug\lib\SDL2d.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
