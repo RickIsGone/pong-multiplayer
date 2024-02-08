@@ -23,7 +23,7 @@ class game{
 
     TTF_Font* font = TTF_OpenFont("calibri.ttf", 30);
 
-    
+    int leftPlayerScore=0,rightPlayerScore=0;
 
     uint32_t currentTime=0, lastFrameTime = 0;
     double deltaTime = 0;
