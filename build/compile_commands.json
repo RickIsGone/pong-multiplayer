@@ -1,13 +1,13 @@
 [
 {
   "directory": "C:/Users/ricca/Desktop/informatica/pong multiplayer/build",
-  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -external:IC:\\vcpkg\\vcpkg\\installed\\x64-windows\\include -external:IC:\\vcpkg\\vcpkg\\installed\\x64-windows\\include\\SDL2 -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -MDd /FoCMakeFiles\\pong.dir\\main.cpp.obj /FdCMakeFiles\\pong.dir\\ /FS -c \"C:\\Users\\ricca\\Desktop\\informatica\\pong multiplayer\\main.cpp\"",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -external:IC:\\vcpkg\\vcpkg\\installed\\x64-windows\\include -external:IC:\\vcpkg\\vcpkg\\installed\\x64-windows\\include\\SDL2 -external:W0 /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD /FoCMakeFiles\\pong.dir\\main.cpp.obj /FdCMakeFiles\\pong.dir\\ /FS -c \"C:\\Users\\ricca\\Desktop\\informatica\\pong multiplayer\\main.cpp\"",
   "file": "C:/Users/ricca/Desktop/informatica/pong multiplayer/main.cpp",
   "output": "CMakeFiles/pong.dir/main.cpp.obj"
 },
 {
   "directory": "C:/Users/ricca/Desktop/informatica/pong multiplayer/build",
-  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -external:IC:\\vcpkg\\vcpkg\\installed\\x64-windows\\include -external:IC:\\vcpkg\\vcpkg\\installed\\x64-windows\\include\\SDL2 -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -MDd /FoCMakeFiles\\pong.dir\\sdl_functions.cpp.obj /FdCMakeFiles\\pong.dir\\ /FS -c \"C:\\Users\\ricca\\Desktop\\informatica\\pong multiplayer\\sdl_functions.cpp\"",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -external:IC:\\vcpkg\\vcpkg\\installed\\x64-windows\\include -external:IC:\\vcpkg\\vcpkg\\installed\\x64-windows\\include\\SDL2 -external:W0 /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD /FoCMakeFiles\\pong.dir\\sdl_functions.cpp.obj /FdCMakeFiles\\pong.dir\\ /FS -c \"C:\\Users\\ricca\\Desktop\\informatica\\pong multiplayer\\sdl_functions.cpp\"",
   "file": "C:/Users/ricca/Desktop/informatica/pong multiplayer/sdl_functions.cpp",
   "output": "CMakeFiles/pong.dir/sdl_functions.cpp.obj"
 }

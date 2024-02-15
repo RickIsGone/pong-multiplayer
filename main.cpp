@@ -10,9 +10,13 @@ int main(int argc,char* argv[]){
     game pong;
 
     TTF_Font* font = TTF_OpenFont("calibri.ttf", 50);
-    if(!font) std::cout<<SDL_GetError();
+    if(!font){
+        std::cout<<SDL_GetError();
+        return EXIT_FAILURE;
+    }
 
     pong.singlepayer(font);
     // pong.multiplayer(font);
+    
     return EXIT_SUCCESS;
 }

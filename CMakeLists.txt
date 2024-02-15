@@ -1,8 +1,11 @@
-cmake_minimum_required(VERSION 3.23.0)
-project(pong VERSION 0.1.0 LANGUAGES C CXX)
+cmake_minimum_required(VERSION   3.23.0)
+project(pong VERSION   0.1.0 LANGUAGES C CXX)
 
 include(CTest)
 enable_testing()
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR}/debug)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/release)
 
 add_executable(pong main.cpp sdl_functions.cpp sdl_functions.hpp class.hpp)
 

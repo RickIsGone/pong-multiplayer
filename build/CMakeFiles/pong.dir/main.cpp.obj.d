@@ -3,8 +3,8 @@ C:/vcpkg/vcpkg/installed/x64-windows/include/SDL2/SDL_main.h
 C:/vcpkg/vcpkg/installed/x64-windows/include/SDL2/SDL_stdinc.h
 C:/vcpkg/vcpkg/installed/x64-windows/include/SDL2/SDL_config.h
 C:/vcpkg/vcpkg/installed/x64-windows/include/SDL2/SDL_platform.h
-C:/Program Files (x86)/Windows Kits/10/include/10.0.22621.0/shared/winapifamily.h
-C:/Program Files (x86)/Windows Kits/10/include/10.0.22621.0/shared/winpackagefamily.h
+C:/Program Files (x86)/Windows Kits/10//include/10.0.22621.0//shared/winapifamily.h
+C:/Program Files (x86)/Windows Kits/10//include/10.0.22621.0//shared/winpackagefamily.h
 C:/vcpkg/vcpkg/installed/x64-windows/include/SDL2/begin_code.h
 C:/vcpkg/vcpkg/installed/x64-windows/include/SDL2/close_code.h
 C:/Program Files (x86)/Windows Kits/10/include/10.0.22621.0/ucrt/stdio.h

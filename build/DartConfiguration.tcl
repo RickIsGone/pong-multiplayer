@@ -28,7 +28,7 @@ NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
 ConfigureCommand: "C:/cmake-3.28.0-rc1-windows-x86_64/bin/cmake.exe" "C:/Users/ricca/Desktop/informatica/pong multiplayer"
-MakeCommand: C:\cmake-3.28.0-rc1-windows-x86_64\bin\cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+MakeCommand: C:\cmake-3.28.0-rc1-windows-x86_64\bin\cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control

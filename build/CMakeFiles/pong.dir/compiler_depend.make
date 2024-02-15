@@ -7,8 +7,8 @@ CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\S
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_stdinc.h
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_config.h
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_platform.h
-CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared\winapifamily.h"
-CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared\winpackagefamily.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\winapifamily.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\winpackagefamily.h"
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
 CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stdio.h"
@@ -195,13 +195,347 @@ CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\S
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
-CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_image.h
-CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
-CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_ttf.h
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
 CMakeFiles\pong.dir\main.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
 CMakeFiles\pong.dir\main.cpp.obj: "C:\Users\ricca\Desktop\informatica\pong multiplayer\class.hpp"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Users\ricca\Desktop\informatica\pong multiplayer\sdl_functions.hpp"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iostream"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\yvals_core.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xkeycheck.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\istream"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ios"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xlocnum"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\climits"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cmath"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\yvals.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\crtdbg.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_new_debug.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_new.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\crtdefs.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\use_ansi.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstdlib"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xtr1common"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\intrin0.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstdio"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iterator"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iosfwd"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstring"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cwchar"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\__msvc_iter_core.hpp"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\initializer_list"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstddef"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\type_traits"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstdint"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\streambuf"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xiosbase"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\share.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\system_error"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\__msvc_system_error_abi.hpp"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cerrno"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\exception"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_exception.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\eh.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_terminate.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\__msvc_sanitizer_annotate_container.hpp"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\limits"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cfloat"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\float.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\new"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xatomic.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xcall_once.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xerrc.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\atomic"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xthreads.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xtimec.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ctime"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\time.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xlocale"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\typeinfo"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_typeinfo.h"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xfacet"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xlocinfo"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\__msvc_xlocinfo_types.hpp"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cctype"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\clocale"
+CMakeFiles\pong.dir\main.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\locale.h"
+
+
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Users\ricca\Desktop\informatica\pong multiplayer\sdl_functions.cpp"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_main.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_stdinc.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_config.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_platform.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\winapifamily.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\winpackagefamily.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stdio.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\sal.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\concurrencysal.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vadefs.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstdio.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_stdio_config.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stdlib.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_malloc.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_search.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stddef.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstdlib.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\limits.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdarg.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\string.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_memory.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_memcpy_s.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\errno.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_string.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstring.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\wchar.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wconio.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wctype.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wdirect.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wio.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_share.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wprocess.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wtime.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\sys\stat.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\sys\types.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdint.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\ctype.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_math.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_math_defines.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\malloc.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_assert.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_atomic.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_audio.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_error.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_endian.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\intrin.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\intrin0.inl.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\setjmp.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\immintrin.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\wmmintrin.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\nmmintrin.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\smmintrin.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tmmintrin.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\pmmintrin.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\emmintrin.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmmintrin.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\mmintrin.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\zmmintrin.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ammintrin.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_mutex.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_thread.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_startup.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_rwops.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_clipboard.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_cpuinfo.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_events.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_video.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_pixels.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_rect.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_surface.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_blendmode.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_keyboard.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_keycode.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_scancode.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_mouse.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_joystick.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_guid.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_gamecontroller.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_sensor.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_quit.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_gesture.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_touch.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_filesystem.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_haptic.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_hidapi.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_hints.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_loadso.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_log.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_messagebox.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_metal.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_power.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_render.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_shape.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_system.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_timer.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_version.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_locale.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_misc.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_ttf.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\close_code.h
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iostream"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\yvals_core.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xkeycheck.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\istream"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ios"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xlocnum"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\climits"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cmath"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\yvals.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\crtdbg.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_new_debug.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_new.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\crtdefs.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\use_ansi.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstdlib"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xtr1common"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\intrin0.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstdio"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iterator"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iosfwd"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstring"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cwchar"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\__msvc_iter_core.hpp"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\initializer_list"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstddef"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\type_traits"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstdint"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\streambuf"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xiosbase"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\share.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\system_error"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\__msvc_system_error_abi.hpp"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cerrno"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\exception"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_exception.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\eh.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_terminate.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\__msvc_sanitizer_annotate_container.hpp"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\limits"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cfloat"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\float.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\new"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xatomic.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xcall_once.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xerrc.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\atomic"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xthreads.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xtimec.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ctime"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\time.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xlocale"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\typeinfo"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_typeinfo.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xfacet"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xlocinfo"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\__msvc_xlocinfo_types.hpp"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cctype"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\clocale"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\locale.h"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\string"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Users\ricca\Desktop\informatica\pong multiplayer\sdl_functions.hpp"
+CMakeFiles\pong.dir\sdl_functions.cpp.obj: "C:\Users\ricca\Desktop\informatica\pong multiplayer\class.hpp"
 
 
 
@@ -215,9 +549,13 @@ C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_locale.h:
 
 "C:\Users\ricca\Desktop\informatica\pong multiplayer\main.cpp":
 
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared\winpackagefamily.h":
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wtime.h":
 
-"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\immintrin.h":
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\climits":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\concurrencysal.h":
+
+"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\winapifamily.h":
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vadefs.h":
 
@@ -237,7 +575,9 @@ C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_endian.h:
 
 C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_stdinc.h:
 
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared\winapifamily.h":
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\ctype.h":
+
+"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\winpackagefamily.h":
 
 C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h:
 
@@ -255,13 +595,11 @@ C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\begin_code.h:
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\sal.h":
 
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wtime.h":
-
-"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\concurrencysal.h":
-
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_string.h":
 
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstdio.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xlocnum":
 
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stdlib.h":
 
@@ -307,15 +645,17 @@ C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_touch.h:
 
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\sys\types.h":
 
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\limits":
+
 C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_ttf.h:
 
 C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_audio.h:
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdint.h":
 
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\ctype.h":
-
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xlocale":
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmmintrin.h":
 
@@ -330,6 +670,8 @@ C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_error.h:
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\intrin0.inl.h":
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\setjmp.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\immintrin.h":
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\wmmintrin.h":
 
@@ -355,6 +697,8 @@ C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_thread.h:
 
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h":
 
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\exception":
+
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_startup.h":
 
 C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_rwops.h:
@@ -368,6 +712,8 @@ C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_pixels.h:
 C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_events.h:
 
 C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_video.h:
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cctype":
 
 C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_rect.h:
 
@@ -397,9 +743,13 @@ C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_gesture.h:
 
 C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_filesystem.h:
 
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\string":
+
 C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_haptic.h:
 
 C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_hidapi.h:
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\system_error":
 
 C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_hints.h:
 
@@ -423,4 +773,124 @@ C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_version.h:
 
 C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_misc.h:
 
-C:\vcpkg\vcpkg\installed\x64-windows\include\SDL2\SDL_image.h:
+"C:\Users\ricca\Desktop\informatica\pong multiplayer\sdl_functions.hpp":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iostream":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\yvals_core.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cmath":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xkeycheck.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\istream":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ios":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\yvals.h":
+
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\crtdbg.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_new_debug.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_new.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\crtdefs.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\use_ansi.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_exception.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstdlib":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xtr1common":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\intrin0.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstdio":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iterator":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iosfwd":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstring":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cwchar":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\__msvc_iter_core.hpp":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\atomic":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\initializer_list":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstddef":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\type_traits":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstdint":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\streambuf":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xiosbase":
+
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\share.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\__msvc_system_error_abi.hpp":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cerrno":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\eh.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\new":
+
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_terminate.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\__msvc_sanitizer_annotate_container.hpp":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cfloat":
+
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\float.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xatomic.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xcall_once.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xerrc.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xthreads.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xtimec.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ctime":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\clocale":
+
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\time.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\typeinfo":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_typeinfo.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xfacet":
+
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\locale.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xlocinfo":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\__msvc_xlocinfo_types.hpp":
+
+"C:\Users\ricca\Desktop\informatica\pong multiplayer\sdl_functions.cpp":
