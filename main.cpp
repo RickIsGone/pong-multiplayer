@@ -17,6 +17,6 @@ int main(int argc,char* argv[]){
 
     pong.singlepayer(font);
     // pong.multiplayer(font);
-    
+
     return EXIT_SUCCESS;
 }

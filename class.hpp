@@ -4,7 +4,7 @@
 #include "sdl_functions.hpp"
 
 #define SPEED 1000
-#define BALLSPEED 1200
+#define BALLSPEED 1050
 
 enum directions{
     UP=-1,
@@ -16,7 +16,7 @@ enum directions{
 
 struct balls{
     SDL_Rect hitbox={775,425,50,50};
-    int dx=LEFT,dy=DOWN;
+    int dx=LEFT,dy=NONE;
     int speed=BALLSPEED;
 }static ball;
 
@@ -37,30 +37,65 @@ class game{
     double deltaTime = 0;
 
     void move(){
-        ball.hitbox.x+=ball.dx*ball.speed*deltaTime;
-        ball.hitbox.y+=ball.dy*ball.speed*deltaTime;
 
         if(ball.hitbox.x <= 0 ) { 
             ball.hitbox={775,425,50,50};
             ball.speed=BALLSPEED;
             ball.dx=RIGHT;
-            ball.dy=DOWN;
+            ball.dy=NONE;
             if(++rightPlayer.score==21) quit=1;
         }
         if(ball.hitbox.x >= 1550){
             ball.hitbox={775,425,50,50};
             ball.speed=BALLSPEED;
             ball.dx=LEFT;
-            ball.dy=DOWN;
+            ball.dy=NONE;
             if(++leftPlayer.score==21) quit=1;
         }
 
-        if(SDL_HasIntersection(&ball.hitbox,&leftPlayer.hitbox)&&ball.dx==LEFT) ball.dx=RIGHT;
-        if(SDL_HasIntersection(&ball.hitbox,&rightPlayer.hitbox)&&ball.dx==RIGHT) ball.dx=LEFT;
+        if(SDL_HasIntersection(&ball.hitbox,&leftPlayer.hitbox)&&ball.dx==LEFT){
+            ball.dx=RIGHT;
+            switch (leftPlayer.dy){
+                case UP:
+                    if(ball.dy==UP) break;
+                    else if(ball.dy==DOWN) ball.dy=DOWN;
+                    else ball.dy=UP;
+                    break;
+                
+                case DOWN:
+                    if(ball.dy==UP) ball.dy=UP;
+                    else if(ball.dy==DOWN) break;
+                    else ball.dy=DOWN;
+                    break;
+                    
+                default:
+                    break;
+            }
+        } 
+        if(SDL_HasIntersection(&ball.hitbox,&rightPlayer.hitbox)&&ball.dx==RIGHT){
+            ball.dx=LEFT;
+            switch (leftPlayer.dy){
+                case UP:
+                    if(ball.dy==UP) break;
+                    else if(ball.dy==DOWN) ball.dy=DOWN;
+                    else ball.dy=UP;
+                    break;
+                
+                case DOWN:
+                    if(ball.dy==UP) ball.dy=UP;
+                    else if(ball.dy==DOWN) break;
+                    else ball.dy=DOWN;
+                    break;
+                    
+                default:
+                    break;
+            }
+        } 
 
         if(ball.hitbox.y <= 0 ||ball.hitbox.y >= 850) ball.dy*=-1; 
 
-        if(ball.speed>2000) ball.speed=2000;
+        ball.hitbox.x+=ball.dx*ball.speed*deltaTime;
+        ball.hitbox.y+=ball.dy*ball.speed*deltaTime;
     }
 
     SDL_Event event;
@@ -178,7 +213,7 @@ class game{
             while (SDL_PollEvent(&event)){
                 events();
             }
-
+            
             leftPlayer.dy=NONE;
             rightPlayer.dy=NONE;
             
